@@ -1,0 +1,162 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: url('../bg2.jpg');
+    background-position: center;
+    background-size: cover;
+    padding-left: -5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative; 
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 0px;
+}
+/* @@@@@@@@@@@@@@@@@@@  Food Website Code @@@@@@@@@@@@@@@@@@ */
+/* ############   Reuseable code for  logos and nav bars ################ */
+.left {
+    /* border: 2px solid red; */
+    display: inline;
+    position: absolute;
+    left: 33px;
+    top: 20px;
+}
+
+.left img {
+    width: 74px;
+}
+
+.left div {
+    text-align: center;
+    color: black;
+    font-size: 18px;
+}
+
+.Right {
+    border: 2px solid red;
+    /* display: block; */
+    width: 39%;
+    margin: 24px auto;
+    top: 30px;
+    display: flex;
+    padding: 23px 34px;
+
+}
+
+.navbar {
+    display: inline;
+    position: absolute;
+    right: 33px;
+    top: 15px;
+}
+
+.navbar li {
+    display: inline-block;
+    color: black;
+
+}
+
+.navbar li a {
+    padding: 11px 23px;
+    text-decoration: none;
+
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    color: azure;
+    background-color: black;
+    border-radius: 7px;
+    border: 2px solid white;
+}
+
+/* ############   Reuseable code for  logos and nav bars ################ */
+
+.content a{
+    margin-top: 188px;
+    margin-bottom: 15px;
+    margin-left: 339px;
+    display: inline-block;
+}
+
+.content h1{
+    font-size: 60px;
+    font-weight: 100;
+    margin-top: -15px;
+    margin-bottom: 15px;
+    color: rgb(35, 45, 96);
+    margin-left: 339px;
+}
+.content p{
+    margin-left: -1px;
+    color: rgb(35, 45, 96);
+    font-size: 35px;
+}
+.line{
+    border: 2px solid rgb(236, 28, 28);
+    display: inline-block;
+    
+}
+.content .btn{
+    display: inline-block;
+    background: linear-gradient(45deg, #87adfe, #ff77cd);
+    /* background: rgb(252, 99, 99); */
+    color: black;
+    border-radius: 6px;
+    padding: 10px 20px ;
+    box-sizing: border-box;
+    text-decoration: none;
+    box-shadow: 3px 8px 2px rgba(94, 28, 68, 0.15);
+}
+.content .btn :hover{
+    display: inline-block;
+    background: linear-gradient(45deg, #87adfe, #ff77cd);
+    /* background: rgb(0, 0, 0); */
+    color: rgb(255, 255, 255);
+    border-radius: 6px;
+    padding: 10px 20px ;
+    box-sizing: border-box;
+    text-decoration: none;
+    box-shadow: 3px 8px 2px rgba(94, 28, 68, 0.15);
+}
+.arrow-icons{
+     margin-top: 50px;
+     display: inline;
+     
+
+}
+.arrow-icons img{
+    width: 30px;
+    margin-right:55%;
+    filter: invert(100%);
+    position: relative;
+    margin-left: 340px;
+    margin-top: 30px;
+    /* padding-left: 50% */
+}
+.feature-img{
+    height: 58%;
+    position: absolute;
+    bottom: 86px;
+    right: 160px;
+}
+
+.social-link{
+    transform: rotate(-90deg);
+    position:absolute;
+    left: -80px;
+    bottom: 180px;
+}
+.social-link a {
+    text-decoration: none;
+    color: #000000;
+    padding-right: 20px;
+    font-size: 14px;
+}
